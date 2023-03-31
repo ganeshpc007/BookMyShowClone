@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto,sans-serif;
+}
+/* first nav */
+.f_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 150px;
+    background-color: rgb(58, 58, 84);
+}
+.left, .right{
+    display: flex;
+}
+.left input{
+    margin-left: 20px;
+    outline: none;
+    width: 550px;
+    border-radius: 5px;
+    padding: 9px 0px;
+}
+
+.right a, button{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.fa-bars{
+    font-size: 20px;
+}
+.right button{
+    background-color: rgb(240, 81, 81);
+    padding: 5px 12px;
+    border-radius: 5px;
+}
+
+/* Second nav*/
+.s_nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(40, 40, 59); 
+    padding: 10px 140px;
+}
+.s_left a,.s_right a{
+    color: rgba(255, 255, 255, 0.776);
+    text-decoration: none;
+    padding: 0px 8px;
+    font-size: 15px;
+    transition: color 0.3s;
+}
+.s_left a:hover{
+    color: white;
+}
+.s_right a:hover{
+    color: white;
+}
+.s_left sup, .s_right sup{
+    font-size: 8px;
+    color: rgb(232, 61, 61);
+    font-weight: bold;
+} 
+
+/* Slides */
+.slides{
+    padding: 10px 0px;
+    background-color: rgb(231, 224, 224);
+}
+
+/* Movies */
+/* recommended_movies */
+.rec_movies{
+    padding-bottom: 40px;
+}
+.rec_head{
+    padding: 0px 150px;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rec_head h2{
+    font-weight: bold;
+    font-size: 25px;
+}
+.rec_head a{
+    color: rgb(232, 63, 63);
+    text-decoration: none;
+}
+.movies{
+    display: flex;
+    padding: 0px 130px;
+}
+.movie img{
+    width: 220px;
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+.movie img:hover{
+  transform: scaleY(1.05);
+  transition: 0.3s;
+}
+
+.movie span, p{
+margin-left: 20px;
+padding: 5px 0px;
+}
+.movie span{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* banner */
+.banner{
+    padding: 50px 80px;
+    padding: 50px 150px ;
+    
+}
+.banner img{
+    width: 100%;
+    
+}
+
+/* Permieres */
+.premiere{
+    background-color: rgb(44, 44, 73);
+}
+.premiere_head{
+    padding: 0px 150px;
+}
+.premiere_head img{
+    width: 95%;
+    margin-bottom: 40px;
+}
+
+.premiere_head {
+color: white;
+font-weight: bold
+
+}
+
+/* Permieres cards */
+.cards{
+    display: flex;
+    padding: 25px 120px;
+    margin-top: -20px;
+}
+.card{
+    color: white;
+    width: 220px;
+    padding: 20px 20px;
+} 
+.card img{
+    width: 220px;
+    border-radius: 15px;
+}
+
+.card span{
+    font-size: 18px;
+    font-weight: bold;
+}
+.card p{
+    margin-left: 0px;
+    /* font-weight: lighter; */
+}
+
+.card img:hover{
+    transform: scaleX(1.07);
+    transition: 0.3s;
+}
+
+/* events_happning */
+.events_happning{
+    padding: 50px 0px;
+}
+
+/* card name color */
+.card_contant{
+    color: black;
+}
+
+
+/* footer */
+footer{
+    background-color: rgb(66, 66, 95);
+    height: 250px;
+    padding-top: 50px ;
+}
+footer img{
+    margin: 0px 45%;
+    position: relative;
+    top: -15px;
+}
+
+.social_media{
+    padding: 25px 40%;
+}
+.social_media i {
+    color: rgb(128, 124, 124);
+    font-size: 30px;
+    margin: 0px 5px;
+}
+.social_media i:hover{
+    color: white;
+    transition: 0.5s;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+    color: rgb(136, 131, 131);
+}
